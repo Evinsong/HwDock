@@ -1,0 +1,7 @@
+# 运行依赖（Python 3.10+ / Windows 10 11 64 位）
+Pillow>=10.0
+psutil>=5.9
+pystray>=0.19
+
+# 仅打包 exe 时需要
+pyinstaller>=6.0

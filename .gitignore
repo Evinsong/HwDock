@@ -1,0 +1,25 @@
+# 构建产物（exe 通过 GitHub Releases 分发，不入库）
+build/
+dist/
+*.egg-info/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 调试截图与临时文件（可能含真实主机名 / 内网 IP，禁止入库）
+tools/build/
+*.log
+*.tmp
+*.bak
+
+# 本地运行配置
+config.json
+error.log
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
